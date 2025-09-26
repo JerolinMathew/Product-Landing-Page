@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Band Watch</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">SmartBand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#product">Product</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#buy">Buy</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero text-center text-light d-flex align-items-center" id="hero">
+    <div class="container py-6">
+      <h1 class="display-3 fw-bold mb-4">Smart Band Watch</h1>
+      <p class="lead mb-5">Track your health, stay connected, and look stylish — all in one band.</p>
+      <a href="#product" class="btn btn-lg btn-primary me-3">Explore</a>
+      <a href="#buy" class="btn btn-lg btn-outline-light">Buy Now</a>
+    </div>
+  </section>
+
+  <section id="product" class="py-6">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div id="productCarousel" class="carousel slide shadow-lg rounded" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image1.jpg" class="d-block w-100 rounded" >
+              </div>
+              <div class="carousel-item">
+                <img src="image2.jpg" class="d-block w-100 rounded" >
+              </div>
+              <div class="carousel-item">
+                <img src="image3.jpg" class="d-block w-100 rounded">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-4">Your Ultimate Fitness Companion</h2>
+          <p class="lead mb-4">Stay on top of your health with real-time monitoring of heart rate, steps, sleep, and more. Receive notifications, control music, and enjoy up to 10 days of battery life.</p>
+          <ul class="list-unstyled fs-5">
+            <li>✔️ Heart Rate & Sleep Tracking</li>
+            <li>✔️ Waterproof & Durable Design</li>
+            <li>✔️ Long Battery Life</li>
+            <li>✔️ Sleek & Lightweight</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="py-6 bg-light">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">Why Choose SmartBand?</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="p-4 shadow rounded bg-white h-100">
+            <div class="fs-1">⚡</div>
+            <h5 class="fw-bold mt-3">Fast & Responsive</h5>
+            <p>Instant syncing and quick notifications right on your wrist.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 shadow rounded bg-white h-100">
+            <div class="fs-1">🔋</div>
+            <h5 class="fw-bold mt-3">Long Battery</h5>
+            <p>Up to 10 days of battery life with a single charge.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 shadow rounded bg-white h-100">
+            <div class="fs-1">💧</div>
+            <h5 class="fw-bold mt-3">Water Resistant</h5>
+            <p>Wear it while swimming, running, or during any activity.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="py-6">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-5">What Our Customers Say</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="p-4 bg-light rounded shadow">
+            <p class="mb-3">"Amazing watch! Tracks everything and looks sleek."</p>
+            <h6 class="fw-bold">- Palarivattam Shaji</h6>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 bg-light rounded shadow">
+            <p class="mb-3">"Battery life is incredible and super comfy to wear."</p>
+            <h6 class="fw-bold">- Shyamala</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="buy" class="py-6 text-center text-light bg-dark">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Get Your Smart Band Today</h2>
+      <p class="lead mb-5">Don't miss out on the best fitness tracker of the year.</p>
+      <a href="#" class="btn btn-lg btn-primary me-3">Buy Now</a>
+      <a href="#" class="btn btn-lg btn-outline-light">Learn More</a>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
